@@ -444,8 +444,11 @@ pie(a)
 pie(b)
 plot(a~b)
 
-c &lt;- rnorm(1000)
+c &lt;- rnorm(1000, mean = 170, sd = 10)
 c
+
+mean(c)
+sd(c)
 
 hist(c)
 density(c)

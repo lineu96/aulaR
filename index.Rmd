@@ -11,6 +11,7 @@ Execute os seguintes comandos:
 
 ```{r, eval=FALSE}
 
+
 10 + 5
 9 - 1
 8 * 3
@@ -101,14 +102,16 @@ pie(a)
 pie(b)
 plot(a~b)
 
-c <- rnorm(1000)
+c <- rnorm(1000, mean = 170, sd = 10)
 c
+
+mean(c)
+sd(c)
 
 hist(c)
 density(c)
 plot(density(c))
 boxplot(c)
-
 
 ```
 
