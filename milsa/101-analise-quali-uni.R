@@ -6,6 +6,8 @@
 ## de atributos de 36 funcionários da companhia Milsa
 
 #-----------------------------------------------------------------------
+library(tidyverse)
+#-----------------------------------------------------------------------
 
 dados <- read.csv("milsa.csv")
 
@@ -52,7 +54,7 @@ ggplot(data=tabela1[-nrow(tabela1),],
             size=8)+
   ylab("Frequência") +
   xlab("") +
-  ggtitle("Gráfico")+
+  #ggtitle("Gráfico")+
   theme_classic() + theme(#legend.position = 'bottom',
     plot.title = element_text(family = "Helvetica", 
                               face = "bold", 
@@ -76,7 +78,7 @@ ggplot(data=tabela1[-nrow(tabela1),], aes(x=1,
             size = 8) +
   ylab("Proporção") +
   xlab("") +
-  ggtitle("Gráfico")+
+  #ggtitle("Gráfico")+
   theme_classic() + theme(#legend.position = 'bottom',
     plot.title = element_text(family = "Helvetica", 
                               face = "bold", 
@@ -109,7 +111,7 @@ ggplot(tabela1,
             size = 5)+
   ylab("") +
   xlab("") +
-  ggtitle("Gráfico")+
+  #ggtitle("Gráfico")+
   theme(legend.position = 'right',
         plot.title = element_text(family = "Helvetica", 
                                   face = "bold", 
@@ -162,7 +164,7 @@ ggplot(data=tabela3[-nrow(tabela3),],
             size=8)+
   ylab("Frequência") +
   xlab("") +
-  ggtitle("Gráfico")+
+  #ggtitle("Gráfico")+
   theme_classic() + theme(#legend.position = 'bottom',
     plot.title = element_text(family = "Helvetica", 
                               face = "bold", 
@@ -186,7 +188,7 @@ ggplot(data=tabela3[-nrow(tabela3),], aes(x=1,
             size = 8) +
   ylab("Proporção") +
   xlab("") +
-  ggtitle("Gráfico")+
+  #ggtitle("Gráfico")+
   theme_classic() + theme(#legend.position = 'bottom',
     plot.title = element_text(family = "Helvetica", 
                               face = "bold", 
@@ -219,7 +221,7 @@ ggplot(tabela3,
             size = 5)+
   ylab("") +
   xlab("") +
-  ggtitle("Gráfico")+
+  #ggtitle("Gráfico")+
   theme(legend.position = 'right',
         plot.title = element_text(family = "Helvetica", 
                                   face = "bold", 
@@ -272,7 +274,7 @@ ggplot(data=tabela2[-nrow(tabela2),],
             size=8)+
   ylab("Frequência") +
   xlab("") +
-  ggtitle("Gráfico")+
+  #ggtitle("Gráfico")+
   theme_classic() + theme(#legend.position = 'bottom',
     plot.title = element_text(family = "Helvetica", 
                               face = "bold", 
@@ -296,7 +298,7 @@ ggplot(data=tabela2[-nrow(tabela2),], aes(x=1,
             size = 8) +
   ylab("Proporção") +
   xlab("") +
-  ggtitle("Gráfico")+
+  #ggtitle("Gráfico")+
   theme_classic() + theme(#legend.position = 'bottom',
     plot.title = element_text(family = "Helvetica", 
                               face = "bold", 
@@ -329,7 +331,7 @@ ggplot(tabela2,
             size = 5)+
   ylab("") +
   xlab("") +
-  ggtitle("Gráfico")+
+  #ggtitle("Gráfico")+
   theme(legend.position = 'right',
         plot.title = element_text(family = "Helvetica", 
                                   face = "bold", 
