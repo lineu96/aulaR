@@ -1,4 +1,12 @@
 
+#-----------------------------------------------------------------------
+# Os comandos a seguir mostram diversas técnicas vistas em aula para
+# análise exploratória univariadas de variáveis qualitativas
+
+# Execute os comandos, discuta o que eles fazem, comente o código e 
+# busque maneiras de customizar os gráficos e tabelas
+#-----------------------------------------------------------------------
+
 dados <- read.csv("https://raw.githubusercontent.com/fernandomayer/data/master/milsa.csv")
 
 names(dados) <- c("funcionario", "estado_civil", 
@@ -59,3 +67,5 @@ tabela6[3,1] <- "TOTAL"
 tabela6[3,2] <- sum(tabela6$freq, na.rm = T)
 tabela6[3,3] <- sum(tabela6$freq_r, na.rm = T)
 tabela6
+
+#-----------------------------------------------------------------------

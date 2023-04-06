@@ -1,5 +1,11 @@
 
 #-----------------------------------------------------------------------
+# Os comandos a seguir simulam duas variáveis qualitativas de 3 níveis
+# cada
+
+# Usando o R, obtenha a medida qui-quadrado de associação entre 
+# variáveis qualitativas
+#-----------------------------------------------------------------------
 set.seed(20230331)
 #-----------------------------------------------------------------------
 
@@ -23,3 +29,14 @@ tabela_final
 
 total_linha
 total_coluna
+
+#-----------------------------------------------------------------------
+
+# SOLUÇÃO
+
+esperados <- outer(total_coluna,
+                   total_linha)/sum(tabela)
+
+sum(((tabela - esperados)^2)/(esperados))
+
+#-----------------------------------------------------------------------

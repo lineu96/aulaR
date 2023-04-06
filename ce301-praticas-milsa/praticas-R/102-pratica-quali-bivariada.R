@@ -1,5 +1,17 @@
 
-dados <- read.csv("milsa.csv")
+#-----------------------------------------------------------------------
+# Os comandos a seguir mostram diversas técnicas vistas em aula para
+# análise exploratória bivariada de variáveis qualitativas
+
+# Execute os comandos, discuta o que eles fazem, comente o código e 
+# busque maneiras de customizar os gráficos e tabelas
+#-----------------------------------------------------------------------
+
+dados <- read.csv("https://raw.githubusercontent.com/fernandomayer/data/master/milsa.csv")
+
+names(dados) <- c("funcionario", "estado_civil", 
+                  "instrucao", "filhos", "salario", 
+                  "anos", "meses", "regiao")
 
 head(dados)
 summary(dados)
