@@ -33,3 +33,4 @@ barplot(tabela_cenario1, main = "cenário 1")
 barplot(tabela_cenario2, main = "cenário 2")
 barplot(tabela_cenario3, main = "cenário 3")
 barplot(tabela_cenario4, main = "cenário 4")
+
