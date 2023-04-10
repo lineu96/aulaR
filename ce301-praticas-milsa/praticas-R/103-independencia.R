@@ -34,8 +34,14 @@ total_coluna
 
 # SOLUÇÃO
 
+## usando outer()
 esperados <- outer(total_coluna,
                    total_linha)/sum(tabela)
+
+sum(((tabela - esperados)^2)/(esperados))
+
+## usando produto matricial
+esperados2 <- (total_coluna %*% t(total_linha))/sum(tabela)
 
 sum(((tabela - esperados)^2)/(esperados))
 

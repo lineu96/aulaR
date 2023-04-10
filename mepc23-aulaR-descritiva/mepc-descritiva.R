@@ -7,6 +7,9 @@ dados <- read.csv("https://raw.githubusercontent.com/lineu96/dados/master/dados.
                      header = T)
 
 head(dados)
+ncol(dados)
+nrow(dados)
+dim(dados)
 summary(dados)
 names(dados)
 
@@ -37,9 +40,9 @@ barplot(tabela1)
 barplot(tabela2)
 barplot(tabela3)
 
-barplot(tabela1, horiz=T)
-barplot(tabela2, horiz=T)
-barplot(tabela3, horiz=T)
+barplot(tabela1)
+barplot(tabela2)
+barplot(tabela3)
 
 pie(tabela1)
 pie(tabela2)
@@ -89,6 +92,16 @@ tabela17 <- tabela16*100
 tabela17
 sum(tabela17)
 
+barplot(tabela15, space = 0)
+hist(dados$altura)
+hist(dados$altura, probability = T)
+
+densidade <- density(dados$altura)
+plot(densidade)
+
+hist(dados$altura, probability = T)
+lines(densidade)
+
 mean(dados$altura)
 median(dados$altura)
 
@@ -99,6 +112,9 @@ quantile(dados$altura)
 
 aic <- quantile(dados$altura)[4] - quantile(dados$altura)[2]
 
+boxplot(dados$altura)
+boxplot(dados$altura, horizontal = T)
+
 quantile(dados$altura, seq(0,1,0.1))
 
 var(dados$altura)
@@ -107,7 +123,7 @@ sd(dados$altura)
 range(dados$altura)
 diff(range(dados$altura))
 
-cv <- mean(dados$altura)/sd(dados$altura)
+cv <- (sd(dados$altura)/mean(dados$altura))*100
 cv
 
 desvios <- dados$altura - mean(dados$altura)
@@ -119,18 +135,6 @@ escores <- (dados$altura-mean(dados$altura))/ sd(dados$altura)
 escores
 mean(escores)
 sd(escores)
-
-hist(dados$altura)
-hist(dados$altura, probability = T)
-
-densidade <- density(dados$altura)
-plot(densidade)
-
-hist(dados$altura, probability = T)
-lines(densidade)
-
-boxplot(dados$altura)
-boxplot(dados$altura, horizontal = T)
 
 #-----------------------------------------------------------------------
 
@@ -186,14 +190,7 @@ total_coluna <- margin.table(tabela7,1)
 total_linha
 total_coluna
 
-tabela7
-tabela10_temp <- rbind(tabela7, total_linha)
-tabela10_temp
-tabela10_final <- cbind(tabela10_temp, c(total_coluna, sum(total_coluna)))
-tabela10_final
-colnames(tabela10_final)
-colnames(tabela10_final)[3] <- "total_coluna"
-tabela10_final
+addmargins(tabela7)
 
 #-----------------------------------------------------------------------
 
@@ -215,14 +212,7 @@ total_coluna <- margin.table(tabela11,1)
 total_linha
 total_coluna
 
-tabela11
-tabela12_temp <- rbind(tabela11, total_linha)
-tabela12_temp
-tabela12_final <- cbind(tabela12_temp, c(total_coluna, sum(total_coluna)))
-tabela12_final
-colnames(tabela12_final)
-colnames(tabela12_final)[3] <- "total_coluna"
-tabela12_final
+addmargins(tabela11)
 
 #-----------------------------------------------------------------------
 
@@ -244,16 +234,12 @@ total_coluna <- margin.table(tabela13,1)
 total_linha
 total_coluna
 
-tabela13
-tabela14_temp <- rbind(tabela13, total_linha)
-tabela14_temp
-tabela14_final <- cbind(tabela14_temp, c(total_coluna, sum(total_coluna)))
-tabela14_final
-colnames(tabela14_final)
-colnames(tabela14_final)[3] <- "total_coluna"
-tabela14_final
+addmargins(tabela13)
 
 #-----------------------------------------------------------------------
+
+dados$peso
+dados$altura
 
 plot(peso~altura, data = dados)
 lm(peso~altura, data = dados)
@@ -265,6 +251,9 @@ cor(dados$peso, dados$altura, method = "kendall")
 cor(dados$peso, dados$altura, method = "spearman")
 
 #-----------------------------------------------------------------------
+
+dados$peso
+dados$atividade_fisica
 
 tapply(X = dados$peso, 
        INDEX = dados$atividade_fisica, 
