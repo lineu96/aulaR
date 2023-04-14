@@ -1,456 +1,201 @@
-origem,atividade_fisica,altura,peso,irmaos
-Interior do Paraná,Não,165,44,0
-Interior do Paraná,Sim,148,45,2
-Outro País,Não,150,45,2
-Interior do Paraná,Sim,157,45,1
-Interior do Paraná,Sim,157,45,1
-Interior do Paraná,Não,168,46,1
-Interior do Paraná,Sim,157,47,1
-Outro Estado,Não,146,48,0
-Outro Estado,Não,153,48,3
-Outro Estado,Não,154,48,3
-Outro Estado,Não,154,48,1
-Outro Estado,Sim,154,48,1
-Outro Estado,Não,154,48,1
-Região metropolitana,Sim,155,48,0
-Outro Estado,Sim,149,49,7
-Interior do Paraná,Sim,156,49,1
-Curitiba,Sim,166,49,0
-Interior do Paraná,Sim,153,50,3
-Curitiba,Sim,157,50,1
-Outro Estado,Sim,160,50,2
-Outro Estado,Sim,160,50,2
-Outro País,Não,165,50,2
-Região metropolitana,Sim,165,50,4
-Outro Estado,Sim,167,50,1
-Outro Estado,Sim,167,50,1
-Outro Estado,Sim,171,50,3
-Interior do Paraná,Não,175,50,1
-Interior do Paraná,Sim,159,51,3
-Interior do Paraná,Sim,161,51,2
-Interior do Paraná,Sim,162,51,2
-Outro País,Não,170,51,7
-Interior do Paraná,Não,152,52,2
-Interior do Paraná,Sim,153,52,1
-Curitiba,Sim,157,52,2
-Curitiba,Sim,163,52,2
-Interior do Paraná,Não,167,52,1
-Interior do Paraná,Sim,158,53,2
-Outro Estado,Sim,160,53,1
-Outro Estado,Sim,160,53,1
-Curitiba,Sim,160,53,1
-Outro Estado,Sim,161,53,4
-Interior do Paraná,Não,162,53,1
-Curitiba,Sim,162,53,2
-Curitiba,Não,163,53,3
-Interior do Paraná,Sim,158,54,1
-Outro Estado,Sim,158,54,1
-Curitiba,Sim,160,54,2
-Curitiba,Sim,160,54,2
-Outro Estado,Sim,161,54,1
-Outro Estado,Não,162,54,3
-Outro País,Sim,163,54,2
-Curitiba,Não,163,54,2
-Curitiba,Não,163,54,2
-Outro Estado,Sim,168,54,1
-Curitiba,Sim,157,55,0
-Interior do Paraná,Não,159,55,0
-Interior do Paraná,Não,164,55,2
-Interior do Paraná,Sim,164,55,2
-Interior do Paraná,Não,164,55,2
-Curitiba,Não,166,55,1
-Interior do Paraná,Sim,156,56,1
-Outro Estado,Sim,156,56,1
-Outro Estado,Sim,157,56,13
-Outro Estado,Sim,157,56,13
-Outro Estado,Sim,157,56,13
-Outro Estado,Sim,160,56,1
-Interior do Paraná,Sim,164,56,2
-Curitiba,Sim,165,56,2
-Interior do Paraná,Não,165,56,4
-Outro Estado,Sim,170,56,4
-Interior do Paraná,Não,170,56,1
-Curitiba,Sim,172,56,2
-Interior do Paraná,Sim,156,57,1
-Interior do Paraná,Sim,156,57,1
-Curitiba,Sim,157,57,1
-Curitiba,Sim,161,57,1
-Outro Estado,Não,162,57,1
-Outro Estado,Sim,163,57,0
-Outro Estado,Sim,163,57,0
-Outro Estado,Não,165,57,2
-Outro Estado,Sim,165,57,3
-Outro Estado,Sim,172,57,0
-Interior do Paraná,Sim,154,58,1
-Interior do Paraná,Não,154,58,0
-Outro Estado,Não,158,58,1
-Outro País,Sim,159,58,3
-Outro Estado,Sim,162,58,3
-Curitiba,Sim,162,58,1
-Interior do Paraná,Sim,163,58,5
-Curitiba,Não,164,58,1
-Curitiba,Sim,164,58,1
-Interior do Paraná,Não,169,58,1
-Outro País,Não,169,58,8
-Outro País,Não,169,58,8
-Interior do Paraná,Sim,172,58,0
-Curitiba,Não,163,59,1
-Curitiba,Sim,164,59,2
-Curitiba,Não,170,59,2
-Curitiba,Sim,158,60,2
-Outro Estado,Sim,160,60,1
-Interior do Paraná,Sim,161,60,1
-Interior do Paraná,Sim,163,60,1
-Interior do Paraná,Não,164,60,1
-Interior do Paraná,Não,164,60,1
-Interior do Paraná,Não,164,60,1
-Curitiba,Sim,167,60,1
-Interior do Paraná,Sim,169,60,1
-Outro Estado,Sim,170,60,1
-Interior do Paraná,Não,158,61,3
-Outro Estado,Sim,158,61,2
-Curitiba,Sim,162,61,0
-Interior do Paraná,Sim,162,61,2
-Interior do Paraná,Não,164,61,1
-Outro Estado,Não,158,62,2
-Curitiba,Não,160,62,2
-Outro Estado,Não,160,62,1
-Outro País,Sim,161,62,5
-Interior do Paraná,Sim,162,62,2
-Interior do Paraná,Não,163,62,4
-Interior do Paraná,Sim,164,62,4
-Interior do Paraná,Sim,164,62,4
-Interior do Paraná,Sim,165,62,1
-Curitiba,Não,170,62,2
-Interior do Paraná,Sim,170,62,2
-Interior do Paraná,Sim,172,62,1
-Curitiba,Sim,173,62,3
-Outro Estado,Não,173,62,1
-Interior do Paraná,Sim,175,62,1
-Interior do Paraná,Sim,156,63,3
-Interior do Paraná,Não,160,63,1
-Outro Estado,Sim,164,63,2
-Interior do Paraná,Sim,165,63,1
-Interior do Paraná,Sim,165,63,1
-Curitiba,Sim,166,63,1
-Outro Estado,Sim,169,63,0
-Outro Estado,Sim,169,63,1
-Outro Estado,Sim,169,63,1
-Outro Estado,Não,170,63,1
-Interior do Paraná,Sim,157,64,2
-Interior do Paraná,Sim,158,64,3
-Outro Estado,Sim,162,64,1
-Outro Estado,Sim,162,64,2
-Curitiba,Sim,162,64,1
-Curitiba,Sim,164,64,2
-Outro Estado,Sim,164,64,1
-Outro País,Sim,165,64,2
-Outro Estado,Sim,167,64,1
-Interior do Paraná,Não,168,64,6
-Outro Estado,Sim,170,64,3
-Outro País,Sim,170,64,2
-Outro Estado,Sim,172,64,1
-Curitiba,Sim,177,64,1
-Outro País,Não,184,64,12
-Interior do Paraná,Não,154,65,0
-Interior do Paraná,Não,154,65,0
-Outro Estado,Não,160,65,1
-Interior do Paraná,Não,163,65,28
-Curitiba,Sim,164,65,1
-Interior do Paraná,Sim,164,65,1
-Interior do Paraná,Sim,165,65,1
-Curitiba,Não,165,65,1
-Interior do Paraná,Sim,166,65,1
-Outro Estado,Sim,168,65,2
-Interior do Paraná,Não,169,65,1
-Interior do Paraná,Sim,170,65,2
-Curitiba,Sim,170,65,1
-Curitiba,Sim,170,65,1
-Curitiba,Sim,172,65,1
-Outro País,Sim,172,65,3
-Outro Estado,Não,174,65,1
-Outro Estado,Sim,176,65,1
-Outro Estado,Sim,179,65,3
-Interior do Paraná,Sim,159,66,2
-Interior do Paraná,Sim,164,66,0
-Curitiba,Sim,165,66,0
-Região metropolitana,Sim,167,66,0
-Curitiba,Sim,159,67,1
-Interior do Paraná,Sim,160,67,1
-Interior do Paraná,Não,167,67,1
-Interior do Paraná,Sim,167,67,1
-Curitiba,Sim,174,67,3
-Outro Estado,Sim,179,67,2
-Outro Estado,Sim,179,67,2
-Outro Estado,Sim,180,67,1
-Outro Estado,Não,180,67,1
-Interior do Paraná,Sim,157,68,2
-Interior do Paraná,Não,158,68,6
-Região metropolitana,Sim,162,68,1
-Interior do Paraná,Sim,164,68,1
-Outro Estado,Não,164,68,2
-Interior do Paraná,Sim,164,68,1
-Outro Estado,Sim,165,68,4
-Outro Estado,Sim,165,68,1
-Curitiba,Sim,167,68,2
-Interior do Paraná,Não,169,68,2
-Curitiba,Sim,171,68,2
-Outro Estado,Sim,173,68,2
-Outro Estado,Sim,152,69,2
-Outro Estado,Sim,164,69,1
-Curitiba,Sim,164,69,1
-Outro Estado,Sim,168,69,1
-Outro Estado,Sim,169,69,1
-Outro Estado,Sim,170,69,2
-Outro Estado,Sim,170,69,2
-Outro País,Sim,175,69,7
-Outro Estado,Sim,191,69,3
-Curitiba,Não,157,70,1
-Interior do Paraná,Sim,157,70,2
-Outro Estado,Não,158,70,1
-Região metropolitana,Não,160,70,1
-Outro Estado,Não,160,70,1
-Curitiba,Sim,164,70,1
-Interior do Paraná,Sim,164,70,1
-Curitiba,Não,169,70,2
-Interior do Paraná,Sim,170,70,1
-Outro Estado,Sim,170,70,3
-Outro Estado,Sim,170,70,4
-Outro Estado,Não,170,70,0
-Outro Estado,Não,170,70,0
-Curitiba,Não,171,70,0
-Curitiba,Sim,174,70,1
-Curitiba,Não,180,70,0
-Outro Estado,Sim,180,70,1
-Outro Estado,Sim,180,70,1
-Interior do Paraná,Não,180,70,2
-Outro País,Não,180,70,1
-Curitiba,Sim,182,70,2
-Outro Estado,Sim,160,71,0
-Outro Estado,Sim,165,71,0
-Outro Estado,Sim,171,71,2
-Curitiba,Sim,178,71,3
-Interior do Paraná,Não,158,72,1
-Outro Estado,Sim,165,72,2
-Interior do Paraná,Não,172,72,1
-Interior do Paraná,Sim,172,72,3
-Interior do Paraná,Sim,176,72,2
-Outro Estado,Sim,176,72,1
-Interior do Paraná,Sim,176,72,2
-Outro Estado,Sim,180,72,3
-Curitiba,Sim,183,72,2
-Interior do Paraná,Não,171,73,1
-Outro Estado,Sim,174,73,2
-Outro Estado,Sim,176,73,3
-Interior do Paraná,Não,180,73,1
-Interior do Paraná,Sim,183,73,1
-Curitiba,Sim,170,74,2
-Curitiba,Sim,170,74,1
-Curitiba,Sim,170,74,1
-Outro Estado,Sim,174,74,1
-Interior do Paraná,Sim,163,75,1
-Região metropolitana,Não,164,75,1
-Interior do Paraná,Sim,165,75,1
-Curitiba,Sim,166,75,0
-Interior do Paraná,Sim,167,75,3
-Outro Estado,Sim,168,75,1
-Outro Estado,Sim,168,75,1
-Interior do Paraná,Sim,169,75,1
-Interior do Paraná,Sim,169,75,2
-Outro Estado,Sim,169,75,4
-Outro Estado,Sim,170,75,1
-Região metropolitana,Sim,170,75,4
-Interior do Paraná,Não,172,75,0
-Interior do Paraná,Não,172,75,0
-Interior do Paraná,Sim,173,75,2
-Curitiba,Sim,173,75,1
-Outro País,Sim,175,75,2
-Curitiba,Sim,175,75,1
-Outro País,Sim,175,75,2
-Outro Estado,Sim,176,75,9
-Curitiba,Sim,179,75,1
-Outro Estado,Sim,180,75,1
-Outro Estado,Não,183,75,3
-Outro País,Sim,183,75,5
-Outro Estado,Sim,183,75,3
-Outro Estado,Sim,186,75,1
-Curitiba,Sim,153,76,4
-Outro Estado,Sim,157,76,1
-Outro Estado,Sim,157,76,1
-Outro Estado,Não,158,76,5
-Interior do Paraná,Sim,163,76,4
-Outro Estado,Não,164,76,1
-Outro Estado,Não,165,76,4
-Curitiba,Sim,168,76,3
-Outro Estado,Sim,178,76,1
-Interior do Paraná,Sim,178,76,2
-Região metropolitana,Sim,163,77,2
-Região metropolitana,Sim,170,77,0
-Interior do Paraná,Sim,170,77,1
-Interior do Paraná,Sim,171,77,4
-Interior do Paraná,Sim,171,77,4
-Outro Estado,Sim,176,77,2
-Curitiba,Sim,183,77,2
-Interior do Paraná,Sim,157,78,0
-Curitiba,Sim,159,78,3
-Interior do Paraná,Sim,165,78,2
-Outro Estado,Sim,170,78,1
-Outro Estado,Sim,171,78,1
-Outro Estado,Não,173,78,3
-Interior do Paraná,Sim,174,78,1
-Outro Estado,Sim,189,78,7
-Interior do Paraná,Não,154,79,2
-Outro Estado,Não,162,79,2
-Interior do Paraná,Não,164,79,1
-Outro Estado,Sim,164,79,4
-Interior do Paraná,Sim,169,79,1
-Outro Estado,Sim,173,79,3
-Outro País,Não,176,79,4
-Interior do Paraná,Sim,179,79,1
-Curitiba,Sim,182,79,2
-Interior do Paraná,Sim,158,80,2
-Interior do Paraná,Sim,158,80,2
-Curitiba,Sim,159,80,4
-Interior do Paraná,Sim,160,80,1
-Interior do Paraná,Não,163,80,1
-Curitiba,Sim,164,80,2
-Interior do Paraná,Não,165,80,1
-Outro Estado,Não,165,80,4
-Outro Estado,Não,165,80,1
-Interior do Paraná,Sim,170,80,4
-Interior do Paraná,Sim,172,80,0
-Curitiba,Sim,174,80,1
-Outro Estado,Não,175,80,2
-Outro Estado,Sim,175,80,1
-Outro Estado,Não,175,80,2
-Interior do Paraná,Sim,176,80,3
-Outro Estado,Sim,180,80,2
-Região metropolitana,Não,184,80,1
-Curitiba,Sim,187,80,1
-Outro Estado,Sim,172,81,24
-Outro Estado,Sim,173,81,1
-Outro Estado,Sim,180,81,1
-Outro Estado,Sim,185,81,3
-Interior do Paraná,Sim,167,82,1
-Interior do Paraná,Sim,167,82,1
-Interior do Paraná,Sim,167,82,1
-Interior do Paraná,Sim,167,82,1
-Interior do Paraná,Sim,167,82,1
-Outro País,Sim,169,82,7
-Outro País,Sim,169,82,7
-Outro Estado,Não,172,82,0
-Interior do Paraná,Sim,173,82,2
-Interior do Paraná,Sim,173,82,2
-Interior do Paraná,Sim,180,82,2
-Curitiba,Sim,162,83,2
-Interior do Paraná,Não,183,83,1
-Interior do Paraná,Sim,174,84,5
-Interior do Paraná,Sim,174,84,5
-Outro Estado,Não,178,84,2
-Região metropolitana,Sim,180,84,1
-Interior do Paraná,Sim,187,84,0
-Interior do Paraná,Sim,187,84,0
-Curitiba,Sim,165,85,1
-Interior do Paraná,Sim,169,85,3
-Curitiba,Não,170,85,1
-Outro Estado,Sim,174,85,3
-Outro Estado,Sim,175,85,1
-Outro Estado,Sim,175,85,1
-Outro Estado,Sim,176,85,3
-Interior do Paraná,Sim,180,85,1
-Outro Estado,Sim,187,85,1
-Outro Estado,Sim,187,85,1
-Outro Estado,Sim,187,85,2
-Outro Estado,Sim,187,85,1
-Interior do Paraná,Sim,187,85,2
-Interior do Paraná,Não,165,86,3
-Interior do Paraná,Sim,185,86,3
-Interior do Paraná,Sim,185,86,3
-Interior do Paraná,Sim,188,86,3
-Outro Estado,Não,158,87,2
-Outro Estado,Sim,158,87,2
-Interior do Paraná,Não,186,87,0
-Curitiba,Sim,163,88,4
-Interior do Paraná,Não,168,88,0
-Outro Estado,Não,169,88,3
-Interior do Paraná,Sim,175,88,5
-Interior do Paraná,Sim,169,89,3
-Outro Estado,Sim,178,89,1
-Curitiba,Sim,182,89,1
-Interior do Paraná,Sim,186,89,3
-Outro Estado,Sim,160,90,1
-Outro Estado,Não,165,90,3
-Outro Estado,Não,171,90,1
-Interior do Paraná,Não,175,90,2
-Outro Estado,Não,180,90,2
-Outro País,Sim,151,91,3
-Interior do Paraná,Sim,168,91,1
-Outro Estado,Não,172,91,0
-Outro Estado,Não,178,91,0
-Interior do Paraná,Não,180,91,2
-Outro Estado,Não,178,92,0
-Curitiba,Sim,179,92,2
-Curitiba,Sim,180,92,1
-Interior do Paraná,Sim,185,92,1
-Interior do Paraná,Sim,185,92,1
-Curitiba,Sim,170,93,2
-Outro Estado,Sim,178,93,1
-Interior do Paraná,Não,170,94,0
-Interior do Paraná,Sim,173,94,1
-Outro Estado,Sim,175,94,5
-Outro Estado,Sim,181,94,1
-Outro Estado,Não,181,94,1
-Região metropolitana,Sim,170,95,3
-Interior do Paraná,Sim,177,95,2
-Outro Estado,Sim,180,95,2
-Outro Estado,Sim,184,95,2
-Outro Estado,Sim,184,95,0
-Curitiba,Sim,185,95,3
-Outro Estado,Sim,190,95,1
-Outro Estado,Sim,173,96,2
-Outro Estado,Sim,173,96,2
-Interior do Paraná,Sim,175,96,2
-Outro Estado,Não,181,96,2
-Curitiba,Sim,183,96,2
-Interior do Paraná,Não,168,98,1
-Curitiba,Sim,172,98,3
-Interior do Paraná,Sim,172,98,3
-Interior do Paraná,Sim,172,98,3
-Interior do Paraná,Sim,172,98,3
-Outro Estado,Não,175,98,1
-Outro Estado,Não,175,98,1
-Outro Estado,Não,176,98,1
-Interior do Paraná,Sim,189,98,2
-Curitiba,Sim,189,99,1
-Curitiba,Sim,189,99,1
-Interior do Paraná,Não,162,100,1
-Outro Estado,Não,166,100,5
-Curitiba,Não,168,100,2
-Outro Estado,Sim,170,100,3
-Interior do Paraná,Sim,180,100,0
-Outro Estado,Sim,194,100,1
-Curitiba,Sim,164,101,1
-Interior do Paraná,Sim,166,101,3
-Curitiba,Sim,190,102,1
-Outro Estado,Não,163,104,3
-Curitiba,Sim,193,104,0
-Interior do Paraná,Sim,179,105,0
-Interior do Paraná,Não,174,106,0
-Curitiba,Não,175,106,0
-Curitiba,Não,183,106,1
-Interior do Paraná,Sim,185,108,1
-Interior do Paraná,Sim,190,109,2
-Região metropolitana,Sim,160,110,2
-Interior do Paraná,Sim,180,110,0
-Curitiba,Sim,185,110,2
-Curitiba,Sim,185,110,2
-Interior do Paraná,Sim,176,113,1
-Interior do Paraná,Sim,176,113,1
-Outro Estado,Sim,177,114,1
-Outro Estado,Não,170,115,2
-Curitiba,Não,180,120,1
-Região metropolitana,Não,183,122,1
-Outro Estado,Não,186,122,1
-Outro Estado,Sim,179,125,0
-Interior do Paraná,Não,172,150,1
-Curitiba,Não,179,160,0
+"","bpm","atividade_fisica","idade","sexo"
+"1",50,"Ativo",43,"M"
+"2",60,"Ativo",30,"M"
+"3",60,"Ativo",45,"M"
+"4",51,"Ativo",39,"F"
+"5",60,"Ativo",32,"M"
+"6",43,"Ativo",43,"M"
+"7",61,"Ativo",31,"M"
+"8",52,"Ativo",33,"F"
+"9",48,"Ativo",40,"M"
+"10",58,"Ativo",31,"M"
+"11",57,"Ativo",34,"F"
+"12",55,"Ativo",33,"F"
+"13",65,"Ativo",33,"F"
+"14",53,"Ativo",37,"M"
+"15",51,"Ativo",27,"M"
+"16",59,"Ativo",39,"M"
+"17",53,"Ativo",32,"F"
+"18",49,"Ativo",31,"F"
+"19",56,"Ativo",35,"F"
+"20",56,"Ativo",37,"F"
+"21",61,"Ativo",26,"F"
+"22",64,"Ativo",38,"M"
+"23",60,"Ativo",33,"M"
+"24",56,"Ativo",35,"F"
+"25",58,"Ativo",41,"F"
+"26",64,"Ativo",19,"F"
+"27",49,"Ativo",43,"M"
+"28",51,"Ativo",32,"M"
+"29",48,"Ativo",29,"F"
+"30",57,"Ativo",43,"F"
+"31",53,"Ativo",37,"M"
+"32",50,"Ativo",30,"F"
+"33",51,"Ativo",29,"F"
+"34",60,"Ativo",33,"M"
+"35",67,"Ativo",39,"F"
+"36",65,"Ativo",40,"M"
+"37",46,"Ativo",32,"M"
+"38",44,"Ativo",41,"M"
+"39",55,"Ativo",46,"F"
+"40",55,"Ativo",29,"F"
+"41",56,"Ativo",43,"F"
+"42",62,"Ativo",38,"F"
+"43",59,"Ativo",30,"F"
+"44",53,"Ativo",39,"F"
+"45",55,"Ativo",39,"M"
+"46",54,"Ativo",32,"F"
+"47",49,"Ativo",33,"F"
+"48",59,"Ativo",33,"F"
+"49",54,"Ativo",43,"M"
+"50",56,"Ativo",47,"F"
+"51",61,"Ativo",35,"M"
+"52",63,"Ativo",34,"M"
+"53",55,"Ativo",40,"F"
+"54",53,"Ativo",34,"F"
+"55",52,"Ativo",37,"F"
+"56",60,"Ativo",32,"M"
+"57",61,"Ativo",33,"F"
+"58",49,"Ativo",35,"M"
+"59",47,"Ativo",37,"M"
+"60",52,"Ativo",38,"M"
+"61",47,"Ativo",41,"F"
+"62",64,"Ativo",31,"F"
+"63",57,"Ativo",35,"M"
+"64",58,"Ativo",27,"M"
+"65",53,"Ativo",34,"F"
+"66",56,"Ativo",35,"M"
+"67",62,"Ativo",28,"M"
+"68",54,"Ativo",35,"M"
+"69",50,"Ativo",34,"F"
+"70",66,"Ativo",36,"M"
+"71",57,"Ativo",49,"F"
+"72",56,"Ativo",35,"F"
+"73",58,"Ativo",41,"F"
+"74",53,"Ativo",33,"F"
+"75",52,"Ativo",31,"M"
+"76",59,"Ativo",40,"F"
+"77",56,"Ativo",36,"M"
+"78",51,"Ativo",33,"M"
+"79",54,"Ativo",36,"F"
+"80",53,"Ativo",35,"M"
+"81",58,"Ativo",27,"M"
+"82",55,"Ativo",41,"F"
+"83",61,"Ativo",32,"M"
+"84",57,"Ativo",26,"M"
+"85",61,"Ativo",36,"M"
+"86",61,"Ativo",33,"M"
+"87",53,"Ativo",28,"F"
+"88",58,"Ativo",32,"M"
+"89",53,"Ativo",36,"M"
+"90",52,"Ativo",29,"F"
+"91",60,"Ativo",39,"F"
+"92",61,"Ativo",29,"M"
+"93",54,"Ativo",29,"F"
+"94",60,"Ativo",31,"F"
+"95",46,"Ativo",25,"M"
+"96",51,"Ativo",35,"F"
+"97",58,"Ativo",42,"F"
+"98",49,"Ativo",39,"M"
+"99",51,"Ativo",40,"M"
+"100",48,"Ativo",38,"M"
+"101",74,"Sedentario",31,"M"
+"102",69,"Sedentario",46,"M"
+"103",80,"Sedentario",32,"F"
+"104",78,"Sedentario",36,"F"
+"105",69,"Sedentario",38,"M"
+"106",70,"Sedentario",35,"M"
+"107",75,"Sedentario",26,"M"
+"108",78,"Sedentario",26,"M"
+"109",75,"Sedentario",31,"F"
+"110",80,"Sedentario",33,"F"
+"111",78,"Sedentario",37,"F"
+"112",78,"Sedentario",35,"F"
+"113",79,"Sedentario",36,"F"
+"114",81,"Sedentario",38,"F"
+"115",63,"Sedentario",44,"F"
+"116",70,"Sedentario",27,"F"
+"117",85,"Sedentario",30,"M"
+"118",68,"Sedentario",41,"F"
+"119",80,"Sedentario",32,"F"
+"120",80,"Sedentario",42,"F"
+"121",81,"Sedentario",36,"M"
+"122",73,"Sedentario",36,"F"
+"123",78,"Sedentario",31,"F"
+"124",76,"Sedentario",27,"M"
+"125",71,"Sedentario",43,"F"
+"126",64,"Sedentario",29,"M"
+"127",75,"Sedentario",36,"F"
+"128",85,"Sedentario",38,"F"
+"129",80,"Sedentario",32,"F"
+"130",79,"Sedentario",38,"M"
+"131",76,"Sedentario",31,"M"
+"132",73,"Sedentario",34,"M"
+"133",70,"Sedentario",38,"M"
+"134",80,"Sedentario",24,"F"
+"135",72,"Sedentario",40,"M"
+"136",77,"Sedentario",32,"M"
+"137",79,"Sedentario",22,"F"
+"138",75,"Sedentario",37,"M"
+"139",78,"Sedentario",35,"M"
+"140",71,"Sedentario",26,"F"
+"141",77,"Sedentario",29,"M"
+"142",75,"Sedentario",35,"M"
+"143",75,"Sedentario",36,"F"
+"144",73,"Sedentario",33,"F"
+"145",82,"Sedentario",36,"M"
+"146",75,"Sedentario",32,"F"
+"147",67,"Sedentario",39,"M"
+"148",66,"Sedentario",23,"M"
+"149",85,"Sedentario",33,"F"
+"150",72,"Sedentario",27,"M"
+"151",79,"Sedentario",35,"F"
+"152",70,"Sedentario",21,"F"
+"153",81,"Sedentario",39,"M"
+"154",75,"Sedentario",37,"F"
+"155",72,"Sedentario",38,"F"
+"156",73,"Sedentario",32,"F"
+"157",80,"Sedentario",31,"F"
+"158",71,"Sedentario",34,"F"
+"159",78,"Sedentario",37,"M"
+"160",77,"Sedentario",34,"M"
+"161",76,"Sedentario",36,"F"
+"162",73,"Sedentario",30,"M"
+"163",77,"Sedentario",39,"M"
+"164",83,"Sedentario",37,"F"
+"165",73,"Sedentario",40,"F"
+"166",78,"Sedentario",42,"F"
+"167",77,"Sedentario",28,"M"
+"168",77,"Sedentario",32,"F"
+"169",74,"Sedentario",31,"M"
+"170",70,"Sedentario",44,"F"
+"171",75,"Sedentario",34,"M"
+"172",64,"Sedentario",40,"F"
+"173",69,"Sedentario",34,"F"
+"174",75,"Sedentario",38,"M"
+"175",75,"Sedentario",38,"M"
+"176",81,"Sedentario",39,"F"
+"177",85,"Sedentario",28,"M"
+"178",78,"Sedentario",41,"M"
+"179",75,"Sedentario",34,"F"
+"180",70,"Sedentario",35,"M"
+"181",73,"Sedentario",35,"F"
+"182",76,"Sedentario",33,"F"
+"183",81,"Sedentario",31,"M"
+"184",87,"Sedentario",35,"F"
+"185",87,"Sedentario",39,"M"
+"186",74,"Sedentario",36,"F"
+"187",75,"Sedentario",34,"M"
+"188",76,"Sedentario",34,"M"
+"189",78,"Sedentario",33,"F"
+"190",75,"Sedentario",34,"F"
+"191",75,"Sedentario",39,"F"
+"192",80,"Sedentario",33,"M"
+"193",81,"Sedentario",39,"M"
+"194",75,"Sedentario",32,"M"
+"195",75,"Sedentario",29,"F"
+"196",75,"Sedentario",37,"M"
+"197",83,"Sedentario",38,"F"
+"198",68,"Sedentario",43,"M"
+"199",67,"Sedentario",36,"M"
+"200",87,"Sedentario",42,"M"
