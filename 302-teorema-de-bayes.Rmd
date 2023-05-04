@@ -1,0 +1,37 @@
+---
+title: \textbf{Probabilidades III}
+subtitle: Partição do espaço amostral, teorema da probabilidade total e teorema de Bayes
+author: Prof. Me. Lineu Alberto Cavazani de Freitas
+date: ""
+institute: |
+ | \textbf{CE003 – Estatística II}
+ |
+ | Departamento de Estatística
+ | Laboratório de Estatística e Geoinformação
+
+graphics: yes
+classoption: [serif, professionalfont, usenames, dvipsnames, aspectratio = 169]
+# bibliography: references.bib
+# csl: ../config/ABNT_UFPR_2011-Mendeley.csl
+output:
+  beamer_presentation:
+    fig_caption: yes
+    fig_crop: no
+    highlight: haddock
+    includes:
+      # NOTE: background, color theme and logos are defined in `preamble-rmd-settings.tex`.
+# http://rmarkdown.rstudio.com/beamer_presentation_format.html
+---
+
+Suponha que um fabricante de sorvetes recebe 20\% de todo o leite que utiliza de uma fazenda F1, 30\% de uma outra fazenda F2 e 50\% de F3.
+
+Um órgão de fiscalização inspecionou as fazendas de surpresa e observou que 20\% do leite produzido por F1 estava adulterado por adição de água, enquanto para F2 e F3, essa proporção era de 5\% e 2\%, respectivamente.
+
+Na indústria de sorvetes os galões de leite são armazenados em um refrigerador sem identificação das fazendas. 
+
+a) Defina os eventos e as probabilidades fornecidas no problema.
+
+b) Para um galão escolhido ao acaso, qual a probabilidade do leite estar adulterado?
+
+c) Qual é a probabilidade de uma amostra adulterada ter sido obtida a partir da fazenda F1?
+
