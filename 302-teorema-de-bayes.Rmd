@@ -1,13 +1,8 @@
 ---
-title: \textbf{Probabilidades III}
-subtitle: Partição do espaço amostral, teorema da probabilidade total e teorema de Bayes
+title:
+subtitle:
 author: Prof. Me. Lineu Alberto Cavazani de Freitas
 date: ""
-institute: |
- | \textbf{CE003 – Estatística II}
- |
- | Departamento de Estatística
- | Laboratório de Estatística e Geoinformação
 
 graphics: yes
 classoption: [serif, professionalfont, usenames, dvipsnames, aspectratio = 169]
@@ -20,8 +15,12 @@ output:
     highlight: haddock
     includes:
       # NOTE: background, color theme and logos are defined in `preamble-rmd-settings.tex`.
+      in_header: [config/preamble-global.tex, config/preamble-chunk-rmd.tex, config/preamble-commands.tex]
+    keep_tex: yes
 # http://rmarkdown.rstudio.com/beamer_presentation_format.html
 ---
+
+## 
 
 Suponha que um fabricante de sorvetes recebe 20\% de todo o leite que utiliza de uma fazenda F1, 30\% de uma outra fazenda F2 e 50\% de F3.
 
@@ -35,3 +34,69 @@ b) Para um galão escolhido ao acaso, qual a probabilidade do leite estar adulte
 
 c) Qual é a probabilidade de uma amostra adulterada ter sido obtida a partir da fazenda F1?
 
+##
+
+\beginAHalfColumn
+
+Eventos
+
+ - F1: leite da fazenda 1.
+ - F2: leite da fazenda 2.
+ - F3: leite da fazenda 3.
+ - A: leite adulterado.
+
+\endColumns
+\beginAHalfColumn
+
+ - P(F1) = 0,20
+ - P(F2) = 0,30
+ - P(F3) = 0,50
+ - P(A|F1) = 0,20
+ - P(A|F2) = 0,05
+ - P(A|F3) = 0,02
+ - P(A) = 0,065
+ - P(F1|A) = 0,615
+ - P(F2|A) = 0,231
+ - P(F3|A) = 0,154
+
+\endColumns
+
+
+##
+
+Teste de screening para uma determinada doença.
+
+Teste imperfeito: acerta 90\% dos que tem doença e 80\% dos que nao tem.
+
+Sabe-se de antemão que a doencça ocorre em 2\% da população.
+
+Se uma pessoa testou positivo, qual a chance de ter a doença?
+
+##
+
+\beginAHalfColumn
+
+Eventos
+
+ - D: doente.
+ - ND: não doente.
+ - P: teste positivo.
+ - N: teste negativo.
+
+\endColumns
+\beginAHalfColumn
+
+ - P(D) = 0,02
+ - P(ND) = 1 - 0,02 = 0,98
+ 
+ - P(P|D) = 0,9
+ - P(N|D) = 1 - 0,9 = 0,1
+ 
+ - P(N|ND) = 0,8
+ - P(P|ND) = 1 - 0,8 = 0,2
+ 
+ - P(P) = 0,214
+ 
+ - P(D|P) = 0,0841
+
+\endColumns
