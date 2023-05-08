@@ -20,7 +20,7 @@ output:
 # http://rmarkdown.rstudio.com/beamer_presentation_format.html
 ---
 
-## 
+## Fazenda
 
 Suponha que um fabricante de sorvetes recebe 20\% de todo o leite que utiliza de uma fazenda F1, 30\% de uma outra fazenda F2 e 50\% de F3.
 
@@ -34,7 +34,7 @@ b) Para um galão escolhido ao acaso, qual a probabilidade do leite estar adulte
 
 c) Qual é a probabilidade de uma amostra adulterada ter sido obtida a partir da fazenda F1?
 
-##
+## Fazenda
 
 \beginAHalfColumn
 
@@ -62,17 +62,18 @@ Eventos
 \endColumns
 
 
-##
+## Teste de diagnóstico
 
-Teste de screening para uma determinada doença.
+Um teste para determinada doença acerta 90\% dos que tem doença e 80\% dos que nao tem. Sabe-se de antemão que a doencça ocorre em 2\% da população.
 
-Teste imperfeito: acerta 90\% dos que tem doença e 80\% dos que nao tem.
+a) Qual é a probabilidade do teste dar positivo?
+b) Qual é a probabilidade do teste dar negativo?
+c) Se uma pessoa testou positivo, qual a chance de ter a doença?
+d) Se uma pessoa testou positivo, qual a chance de NÃO ter a doença?
+e) Se uma pessoa testou negativo, qual a chance de ter a doença?
+f) Se uma pessoa testou negativo, qual a chance de NÃO ter a doença?
 
-Sabe-se de antemão que a doencça ocorre em 2\% da população.
-
-Se uma pessoa testou positivo, qual a chance de ter a doença?
-
-##
+## Teste de diagnóstico
 
 \beginAHalfColumn
 
@@ -83,20 +84,69 @@ Eventos
  - P: teste positivo.
  - N: teste negativo.
 
+Probabilidades fornecidas
+
+ - P(D) = 0,02
+ - P(P|D) = 0,9
+ - P(N|ND) = 0,8
+ 
 \endColumns
 \beginAHalfColumn
 
- - P(D) = 0,02
- - P(ND) = 1 - 0,02 = 0,98
+Probabilidades obtidas por complementar ou Bayes
+
+  - P(ND) = 1 - 0,02 = 0,98
+  - P(N|D) = 1 - 0,9 = 0,1
+  - P(P|ND) = 1 - 0,8 = 0,2
+  - P(P) = 0,214
+  - P(N) = 0,786
+  - P(D|P) = 0,0841
+  - P(ND|P) = 1-0,0841 = 0,916
+  - P(D|N) = 0,0025
+  - P(ND|N) = 1-0,0025 = 0,9975
+
+\endColumns
+
+## SPAM
+
+Em um servidor de email 54\% das mensagens recebidas são SPAM. 86\% dos SPAM continham um arquivo executável anexado e 62\% dos não SPAM  não continham um executável anexado.
+
+a) Qual é a probabilidade de existir um anexo executável em um email?
+b) Qual é a probabilidade de não existir um anexo executável em um email?
+c) Qual é a probabilidade de ser spam sabendo que possui executável?
+d) Qual é a probabilidade de NÃO ser spam sabendo que possui executável?
+
+## SPAM
+
+\beginAHalfColumn
+
+Eventos
+
+ - S: spam.
+ - NS: não spam.
+ - E: com executável.
+ - SE: sem executável.
+
+Probabilidades fornecidas
+
+ - P(S) = 0,54
+ - P(E|S) = 0,86
+ - P(SE|NS) = 0,62
  
- - P(P|D) = 0,9
- - P(N|D) = 1 - 0,9 = 0,1
- 
- - P(N|ND) = 0,8
- - P(P|ND) = 1 - 0,8 = 0,2
- 
- - P(P) = 0,214
- 
- - P(D|P) = 0,0841
+\endColumns
+\beginAHalfColumn
+
+Probabilidades obtidas por complementar ou Bayes
+
+  - P(NS) = 1 - 0,54 = 0,46
+  - P(SE|S) = 1 - 0,86 = 0,14
+  - P(E|NS) = 1 - 0,62 = 0,38
+
+  - P(E) = 0,6392
+  - P(SE) = 1-0,6392 = 0.3608
+
+  - P(S|E) = 0,7265
+  - P(NS|E) = 1 - 0,7265 = 0,2735
+
 
 \endColumns

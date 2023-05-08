@@ -583,8 +583,8 @@
 
 \begin{document}
 
-\begin{frame}{}
-\protect\hypertarget{section}{}
+\begin{frame}{Fazenda}
+\protect\hypertarget{fazenda}{}
 Suponha que um fabricante de sorvetes recebe 20\% de todo o leite que
 utiliza de uma fazenda F1, 30\% de uma outra fazenda F2 e 50\% de F3.
 
@@ -608,8 +608,8 @@ refrigerador sem identificação das fazendas.
 \end{enumerate}
 \end{frame}
 
-\begin{frame}{}
-\protect\hypertarget{section-1}{}
+\begin{frame}{Fazenda}
+\protect\hypertarget{fazenda-1}{}
 \beginAHalfColumn
 
 Eventos
@@ -656,19 +656,32 @@ Eventos
 \endColumns
 \end{frame}
 
-\begin{frame}{}
-\protect\hypertarget{section-2}{}
-Teste de screening para uma determinada doença.
+\begin{frame}{Teste de diagnóstico}
+\protect\hypertarget{teste-de-diagnuxf3stico}{}
+Um teste para determinada doença acerta 90\% dos que tem doença e 80\%
+dos que nao tem. Sabe-se de antemão que a doencça ocorre em 2\% da
+população.
 
-Teste imperfeito: acerta 90\% dos que tem doença e 80\% dos que nao tem.
-
-Sabe-se de antemão que a doencça ocorre em 2\% da população.
-
-Se uma pessoa testou positivo, qual a chance de ter a doença?
+\begin{enumerate}
+[a)]
+\tightlist
+\item
+  Qual é a probabilidade do teste dar positivo?
+\item
+  Qual é a probabilidade do teste dar negativo?
+\item
+  Se uma pessoa testou positivo, qual a chance de ter a doença?
+\item
+  Se uma pessoa testou positivo, qual a chance de NÃO ter a doença?
+\item
+  Se uma pessoa testou negativo, qual a chance de ter a doença?
+\item
+  Se uma pessoa testou negativo, qual a chance de NÃO ter a doença?
+\end{enumerate}
 \end{frame}
 
-\begin{frame}{}
-\protect\hypertarget{section-3}{}
+\begin{frame}{Teste de diagnóstico}
+\protect\hypertarget{teste-de-diagnuxf3stico-1}{}
 \beginAHalfColumn
 
 Eventos
@@ -685,26 +698,118 @@ Eventos
   N: teste negativo.
 \end{itemize}
 
-\endColumns
-\beginAHalfColumn
+Probabilidades fornecidas
 
 \begin{itemize}
+\tightlist
 \item
   P(D) = 0,02
 \item
-  P(ND) = 1 - 0,02 = 0,98
-\item
   P(P\textbar D) = 0,9
 \item
-  P(N\textbar D) = 1 - 0,9 = 0,1
-\item
   P(N\textbar ND) = 0,8
+\end{itemize}
+
+\endColumns
+\beginAHalfColumn
+
+Probabilidades obtidas por complementar ou Bayes
+
+\begin{itemize}
+\tightlist
+\item
+  P(ND) = 1 - 0,02 = 0,98
+\item
+  P(N\textbar D) = 1 - 0,9 = 0,1
 \item
   P(P\textbar ND) = 1 - 0,8 = 0,2
 \item
   P(P) = 0,214
 \item
+  P(N) = 0,786
+\item
   P(D\textbar P) = 0,0841
+\item
+  P(ND\textbar P) = 1-0,0841 = 0,916
+\item
+  P(D\textbar N) = 0,0025
+\item
+  P(ND\textbar N) = 1-0,0025 = 0,9975
+\end{itemize}
+
+\endColumns
+\end{frame}
+
+\begin{frame}{SPAM}
+\protect\hypertarget{spam}{}
+Em um servidor de email 54\% das mensagens recebidas são SPAM. 86\% dos
+SPAM continham um arquivo executável anexado e 62\% dos não SPAM não
+continham um executável anexado.
+
+\begin{enumerate}
+[a)]
+\tightlist
+\item
+  Qual é a probabilidade de existir um anexo executável em um email?
+\item
+  Qual é a probabilidade de não existir um anexo executável em um email?
+\item
+  Qual é a probabilidade de ser spam sabendo que possui executável?
+\item
+  Qual é a probabilidade de NÃO ser spam sabendo que possui executável?
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{SPAM}
+\protect\hypertarget{spam-1}{}
+\beginAHalfColumn
+
+Eventos
+
+\begin{itemize}
+\tightlist
+\item
+  S: spam.
+\item
+  NS: não spam.
+\item
+  E: com executável.
+\item
+  SE: sem executável.
+\end{itemize}
+
+Probabilidades fornecidas
+
+\begin{itemize}
+\tightlist
+\item
+  P(S) = 0,54
+\item
+  P(E\textbar S) = 0,86
+\item
+  P(SE\textbar NS) = 0,62
+\end{itemize}
+
+\endColumns
+\beginAHalfColumn
+
+Probabilidades obtidas por complementar ou Bayes
+
+\begin{itemize}
+\item
+  P(NS) = 1 - 0,54 = 0,46
+\item
+  P(SE\textbar S) = 1 - 0,86 = 0,14
+\item
+  P(E\textbar NS) = 1 - 0,62 = 0,38
+\item
+  P(E) = 0,6392
+\item
+  P(SE) = 1-0,6392 = 0.3608
+\item
+  P(S\textbar E) = 0,7265
+\item
+  P(NS\textbar E) = 1 - 0,7265 = 0,2735
 \end{itemize}
 
 \endColumns
